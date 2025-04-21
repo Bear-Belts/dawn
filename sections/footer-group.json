@@ -11,15 +11,6 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "custom_liquid_TeE3ae": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<!-- BEGIN MerchantWidget Code -->\n<script id='merchantWidgetScript'\n        src=\"https://www.gstatic.com/shopping/merchant/merchantwidget.js\"\n        defer>\n</script>\n<script type=\"text/javascript\">\n  merchantWidgetScript.addEventListener('load', function () {\n    merchantwidget.start({\n     position: 'LEFT_BOTTOM'\n   });\n  });\n</script>\n<!-- END MerchantWidget Code -->",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "170839763328fca986": {
       "type": "apps",
       "blocks": {
@@ -89,7 +80,6 @@
     }
   },
   "order": [
-    "custom_liquid_TeE3ae",
     "170839763328fca986",
     "footer"
   ]

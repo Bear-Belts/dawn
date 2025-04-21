@@ -23,6 +23,7 @@
         },
         "f0d6282c-ed32-4bea-8b6c-84041f9bd325": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Christmas last shipping dates",
             "link": "shopify://pages/christmas-last-posting-dates"

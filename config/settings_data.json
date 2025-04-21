@@ -1,309 +1,5 @@
 {
-  "current": {
-    "logo": "{{ shop.brand.logo }}",
-    "logo_width": 90,
-    "favicon": "shopify://shop_images/Paw.png",
-    "type_header_font": "bio_rhyme_n4",
-    "heading_scale": 100,
-    "type_body_font": "bio_rhyme_n4",
-    "body_scale": 100,
-    "page_width": 1200,
-    "spacing_sections": 0,
-    "spacing_grid_horizontal": 8,
-    "spacing_grid_vertical": 8,
-    "animations_reveal_on_scroll": true,
-    "buttons_border_thickness": 1,
-    "buttons_border_opacity": 100,
-    "buttons_radius": 0,
-    "buttons_shadow_opacity": 0,
-    "buttons_shadow_horizontal_offset": 0,
-    "buttons_shadow_vertical_offset": 4,
-    "buttons_shadow_blur": 5,
-    "variant_pills_border_thickness": 1,
-    "variant_pills_border_opacity": 55,
-    "variant_pills_radius": 40,
-    "variant_pills_shadow_opacity": 0,
-    "variant_pills_shadow_horizontal_offset": 0,
-    "variant_pills_shadow_vertical_offset": 4,
-    "variant_pills_shadow_blur": 5,
-    "inputs_border_thickness": 1,
-    "inputs_border_opacity": 55,
-    "inputs_radius": 0,
-    "inputs_shadow_opacity": 0,
-    "inputs_shadow_horizontal_offset": 0,
-    "inputs_shadow_vertical_offset": 4,
-    "inputs_shadow_blur": 5,
-    "card_style": "card",
-    "card_image_padding": 0,
-    "card_text_alignment": "left",
-    "card_color_scheme": "background-2",
-    "card_border_thickness": 0,
-    "card_border_opacity": 10,
-    "card_corner_radius": 0,
-    "card_shadow_opacity": 0,
-    "card_shadow_horizontal_offset": 0,
-    "card_shadow_vertical_offset": 4,
-    "card_shadow_blur": 5,
-    "text_boxes_border_thickness": 0,
-    "text_boxes_border_opacity": 10,
-    "text_boxes_radius": 0,
-    "text_boxes_shadow_opacity": 0,
-    "text_boxes_shadow_horizontal_offset": 0,
-    "text_boxes_shadow_vertical_offset": 4,
-    "text_boxes_shadow_blur": 5,
-    "media_border_thickness": 0,
-    "media_border_opacity": 5,
-    "media_radius": 0,
-    "media_shadow_opacity": 0,
-    "media_shadow_horizontal_offset": 0,
-    "media_shadow_vertical_offset": 4,
-    "media_shadow_blur": 5,
-    "popup_border_thickness": 1,
-    "popup_border_opacity": 10,
-    "popup_corner_radius": 0,
-    "popup_shadow_opacity": 0,
-    "popup_shadow_horizontal_offset": 0,
-    "popup_shadow_vertical_offset": 4,
-    "popup_shadow_blur": 5,
-    "drawer_border_thickness": 1,
-    "drawer_border_opacity": 10,
-    "drawer_shadow_opacity": 0,
-    "drawer_shadow_horizontal_offset": 0,
-    "drawer_shadow_vertical_offset": 4,
-    "drawer_shadow_blur": 5,
-    "badge_position": "bottom left",
-    "badge_corner_radius": 40,
-    "sale_badge_color_scheme": "accent-2",
-    "sold_out_badge_color_scheme": "inverse",
-    "social_facebook_link": "https://facebook.com/BearBeltsStore",
-    "social_instagram_link": "https://instagram.com/BearBelts",
-    "social_youtube_link": "https://www.youtube.com/channel/UCp38_YoduZa6UsIo4Gc-SJw",
-    "social_tiktok_link": "https://tiktok.com/@bearbelts",
-    "social_twitter_link": "https://twitter.com/BearBelts",
-    "social_snapchat_link": "",
-    "social_pinterest_link": "",
-    "social_tumblr_link": "",
-    "social_vimeo_link": "",
-    "predictive_search_enabled": true,
-    "predictive_search_show_vendor": false,
-    "predictive_search_show_price": false,
-    "currency_code_enabled": true,
-    "checkout_header_image": "shopify://shop_images/Pride_Flag_Buckle-Free_Belt_-_Bear_Flag_-_Front_-_Wide_-_Bear_Flag_2.jpg",
-    "checkout_logo_image": "shopify://shop_images/Logo.png",
-    "checkout_logo_position": "left",
-    "checkout_heading_font": "Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman'",
-    "checkout_body_font": "Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman'",
-    "colors_solid_button_labels": "#ffffff",
-    "colors_accent_1": "#2b2b2b",
-    "gradient_accent_1": "linear-gradient(180deg, rgba(85, 85, 85, 1) 4%, rgba(0, 0, 0, 1) 100%)",
-    "colors_accent_2": "#eaa032",
-    "gradient_accent_2": "linear-gradient(180deg, rgba(213, 99, 0, 1), rgba(254, 221, 99, 1) 100%)",
-    "colors_text": "#2b2b2b",
-    "colors_outline_button_labels": "#121212",
-    "colors_background_1": "#ffffff",
-    "gradient_background_1": "",
-    "colors_background_2": "#aaaaaa",
-    "gradient_background_2": "",
-    "accent_icons": "text",
-    "sections": {
-      "announcement-bar": {
-        "type": "announcement-bar",
-        "blocks": {
-          "announcement-bar-0": {
-            "type": "announcement",
-            "settings": {
-              "text": "Buy 2 Get 1 Free",
-              "link": ""
-            }
-          },
-          "f0593206-18e1-4857-a16a-5d70dcb121f2": {
-            "type": "announcement",
-            "disabled": true,
-            "settings": {
-              "text": "Christmas last shipping dates",
-              "link": "shopify://pages/christmas-last-posting-dates"
-            }
-          },
-          "9a2ed4df-c957-436d-83c9-515449e14a8d": {
-            "type": "announcement",
-            "disabled": true,
-            "settings": {
-              "text": "Royal Mail's international export services continue to be severely disrupted following a cyber incident.",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "announcement-bar-0",
-          "f0593206-18e1-4857-a16a-5d70dcb121f2",
-          "9a2ed4df-c957-436d-83c9-515449e14a8d"
-        ],
-        "settings": {}
-      },
-      "header": {
-        "type": "header",
-        "settings": {
-          "logo_position": "middle-left",
-          "menu": "main-menu",
-          "menu_type_desktop": "dropdown",
-          "show_line_separator": true,
-          "color_scheme": "background-1",
-          "mobile_logo_position": "center",
-          "margin_bottom": 0,
-          "padding_top": 20,
-          "padding_bottom": 20
-        }
-      },
-      "footer": {
-        "type": "footer",
-        "blocks": {
-          "footer-0": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Quick links and Info",
-              "menu": "footer"
-            }
-          },
-          "footer-2": {
-            "type": "text",
-            "disabled": true,
-            "settings": {
-              "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
-            }
-          }
-        },
-        "block_order": [
-          "footer-0",
-          "footer-2"
-        ],
-        "settings": {
-          "color_scheme": "background-1",
-          "newsletter_enable": false,
-          "newsletter_heading": "Subscribe to our emails",
-          "show_social": true,
-          "enable_country_selector": true,
-          "enable_language_selector": true,
-          "payment_enable": true,
-          "margin_top": 0,
-          "padding_top": 36,
-          "padding_bottom": 36
-        }
-      },
-      "main-password-header": {
-        "type": "main-password-header",
-        "settings": {
-          "color_scheme": "background-1"
-        }
-      },
-      "main-password-footer": {
-        "type": "main-password-footer",
-        "settings": {
-          "color_scheme": "background-1"
-        }
-      }
-    },
-    "content_for_index": [],
-    "blocks": {
-      "855628211100114053": {
-        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
-        "disabled": false,
-        "settings": {}
-      },
-      "7456567658179156570": {
-        "type": "shopify://apps/adroll-advertising-marketing/blocks/adroll-pixel/c60853ed-1adb-4359-83ae-4ed43ed0b559",
-        "disabled": false,
-        "settings": {
-          "enable_email_capture": true
-        }
-      },
-      "15683396631634586217": {
-        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
-        "disabled": false,
-        "settings": {
-          "button_color": "#eaa032",
-          "secondary_color": "#FFFFFF",
-          "button_icon": "chat_bubble",
-          "button_text": "no_text",
-          "button_horizontal_position": "bottom_right",
-          "button_vertical_position": "lowest",
-          "greeting_message": "👋🏻 Hello! Please message us if you have questions, or give an idea of what you’re looking for. We’re happy to make recommendations."
-        }
-      },
-      "14060646107696862457": {
-        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": false,
-        "settings": {}
-      },
-      "13768625480086291342": {
-        "type": "shopify://apps/forms/blocks/forms/8744a304-fcb1-4347-b211-bb6b4759a76a",
-        "disabled": false,
-        "settings": {}
-      },
-      "6233082987017222955": {
-        "type": "shopify://apps/brandlift-loyalty-rewards/blocks/floating-embed/3d9b9e93-a547-40d8-a6b9-aa54a96739cb",
-        "disabled": false,
-        "settings": {}
-      }
-    },
-    "color_schemes": {
-      "background-1": {
-        "settings": {
-          "background": "{{ shop.brand.colors.primary[0].foreground }}",
-          "background_gradient": "",
-          "text": "{{ shop.brand.colors.primary[0].background }}",
-          "button": "{{ shop.brand.colors.primary[0].background }}",
-          "button_label": "{{ shop.brand.colors.primary[0].foreground }}",
-          "secondary_button_label": "{{ shop.brand.colors.primary[0].background }}",
-          "shadow": "{{ shop.brand.colors.primary[0].background }}"
-        }
-      },
-      "background-2": {
-        "settings": {
-          "background": "{{ shop.brand.colors.secondary[0].background }}",
-          "background_gradient": "",
-          "text": "{{ shop.brand.colors.primary[0].foreground }}",
-          "button": "{{ shop.brand.colors.primary[0].foreground }}",
-          "button_label": "{{ shop.brand.colors.secondary[0].background }}",
-          "secondary_button_label": "{{ shop.brand.colors.primary[0].foreground }}",
-          "shadow": "{{ shop.brand.colors.primary[0].background }}"
-        }
-      },
-      "inverse": {
-        "settings": {
-          "background": "{{ shop.brand.colors.primary[0].background }}",
-          "background_gradient": "",
-          "text": "{{ shop.brand.colors.secondary[0].foreground }}",
-          "button": "{{ shop.brand.colors.secondary[0].foreground }}",
-          "button_label": "{{ shop.brand.colors.primary[0].background }}",
-          "secondary_button_label": "{{ shop.brand.colors.secondary[0].foreground }}",
-          "shadow": "{{ shop.brand.colors.primary[0].background }}"
-        }
-      },
-      "accent-1": {
-        "settings": {
-          "background": "#ea27c2",
-          "background_gradient": "",
-          "text": "#ffffff",
-          "button": "#ffffff",
-          "button_label": "#ea27c2",
-          "secondary_button_label": "#ffffff",
-          "shadow": "#121212"
-        }
-      },
-      "accent-2": {
-        "settings": {
-          "background": "#334fb4",
-          "background_gradient": "",
-          "text": "#ffffff",
-          "button": "#ffffff",
-          "button_label": "#334fb4",
-          "secondary_button_label": "#ffffff",
-          "shadow": "#121212"
-        }
-      }
-    }
-  },
+  "current": "Bear Belts",
   "presets": {
     "Default": {
       "logo_width": 90,
@@ -737,7 +433,7 @@
         }
       },
       "color_schemes": {
-        "background-1": {
+        "scheme-1": {
           "settings": {
             "background": "{{ shop.brand.colors.primary[0].foreground }}",
             "background_gradient": "",
@@ -748,7 +444,7 @@
             "shadow": "{{ shop.brand.colors.primary[0].background }}"
           }
         },
-        "background-2": {
+        "scheme-2": {
           "settings": {
             "background": "{{ shop.brand.colors.secondary[0].background }}",
             "background_gradient": "",
@@ -759,7 +455,7 @@
             "shadow": "{{ shop.brand.colors.primary[0].background }}"
           }
         },
-        "inverse": {
+        "scheme-3": {
           "settings": {
             "background": "{{ shop.brand.colors.primary[0].background }}",
             "background_gradient": "",
@@ -770,7 +466,7 @@
             "shadow": "{{ shop.brand.colors.primary[0].background }}"
           }
         },
-        "accent-1": {
+        "scheme-4": {
           "settings": {
             "background": "#ea27c2",
             "background_gradient": "",
@@ -781,7 +477,7 @@
             "shadow": "#121212"
           }
         },
-        "accent-2": {
+        "scheme-5": {
           "settings": {
             "background": "#334fb4",
             "background_gradient": "",

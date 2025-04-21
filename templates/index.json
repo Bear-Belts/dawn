@@ -9,6 +9,54 @@
  */
 {
   "sections": {
+    "image_banner_jRkaLW": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_6RKdhY": {
+          "type": "heading",
+          "settings": {
+            "heading": "No Buckles Needed! Comfort in Every Buckle-Free Stretch Belt",
+            "heading_size": "h1"
+          }
+        },
+        "text_78FtjP": {
+          "type": "text",
+          "settings": {
+            "text": "Experience the ultimate comfort with our buckle-free belts.",
+            "text_style": "body"
+          }
+        },
+        "buttons_rADiKy": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop All Belts",
+            "button_link_1": "shopify://collections/belts",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_6RKdhY",
+        "text_78FtjP",
+        "buttons_rADiKy"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "fixed",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "left",
+        "show_text_box": false,
+        "color_scheme": "",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
     "7a0dd13d-bfac-477f-83cd-da2f692f1ba5": {
       "type": "image-banner",
       "blocks": {
@@ -163,6 +211,34 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "belts",
+        "products_to_show": 8,
+        "title": "Discover Our Bestsellers",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 3,
+        "enable_desktop_slider": true,
+        "full_width": true,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 36
       }
     },
     "multicolumn": {
@@ -376,34 +452,6 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "belts",
-        "products_to_show": 8,
-        "title": "Belt collections",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 3,
-        "enable_desktop_slider": true,
-        "full_width": true,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "color_scheme": "scheme-1",
-        "image_ratio": "portrait",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 28,
-        "padding_bottom": 36
       }
     },
     "165013541345f17318": {
@@ -793,15 +841,16 @@
     }
   },
   "order": [
+    "image_banner_jRkaLW",
     "7a0dd13d-bfac-477f-83cd-da2f692f1ba5",
     "image_banner_iE39MX",
     "72852d88-42d9-4038-b898-aa671f891831",
+    "featured_collection",
     "multicolumn",
     "image_banner",
     "rich_text",
     "1652120374894c02b4",
     "rich_text_zFtWpN",
-    "featured_collection",
     "165013541345f17318",
     "166325020295edf243",
     "16521208037f36a38d",

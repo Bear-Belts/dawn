@@ -1,45 +1,32 @@
-<div class="text-rotator">
-  <div class="rotator-words" data-words="{{ section.blocks | map: 'settings.word_text' | json }}">
-    <span class="rotator-word rotator-prev"></span>
-    <span class="rotator-word rotator-current"></span>
-    <span class="rotator-word rotator-next"></span>
-  </div>
-  <div class="rotator-static-text">{{ section.settings.text }}</div>
-</div>
+{{ 'section-rich-text.css' | asset_url | stylesheet_tag }}
+{{ 'section-text-rotator.css' | asset_url | stylesheet_tag }}
 
-<style>
-  .text-rotator {
-    display: flex;
-    align-items: center;
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
-  .rotator-words {
-    position: relative;
-    width: 5ch;
-    height: 1.2em;
-    overflow: hidden;
-    margin-right: 0.5em;
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
   }
-  .rotator-word {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    text-align: right;
-    transition: opacity 0.5s;
-  }
-  .rotator-prev {
-    top: -1.2em;
-    opacity: 0.3;
-  }
-  .rotator-current {
-    top: 0;
-    opacity: 1;
-    font-weight: bold;
-  }
-  .rotator-next {
-    top: 1.2em;
-    opacity: 0.3;
-  }
-</style>
+{%- endstyle -%}
+
+<div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
+  <div class="text-rotator content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} text-rotator--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
+    <div class="text-rotator__wrapper text-rotator__wrapper--{{ section.settings.desktop_content_position }}{% if section.settings.full_width %} page-width{% endif %}">
+      <div class="rotator-words" data-words="{{ section.blocks | map: 'settings.word_text' | json }}">
+        <span class="rotator-word rotator-prev"></span>
+        <span class="rotator-word rotator-current"></span>
+        <span class="rotator-word rotator-next"></span>
+      </div>
+      <div class="rotator-static-text">{{ section.settings.text }}</div>
+    </div>
+  </div>
+</div>
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
@@ -69,12 +56,92 @@
 {% schema %}
 {
   "name": "Text Rotator",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
   "settings": [
     {
       "id": "text",
       "type": "text",
-      "label": "Static text",
-      "default": "Your text here"
+      "label": "Static text"
+    },
+    {
+      "type": "select",
+      "id": "desktop_content_position",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.rich-text.settings.desktop_content_position.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.rich-text.settings.desktop_content_position.options__2.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.rich-text.settings.desktop_content_position.options__3.label"
+        }
+      ],
+      "default": "center",
+      "label": "t:sections.rich-text.settings.desktop_content_position.label"
+    },
+    {
+      "type": "select",
+      "id": "content_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.rich-text.settings.content_alignment.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.rich-text.settings.content_alignment.options__2.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.rich-text.settings.content_alignment.options__3.label"
+        }
+      ],
+      "default": "center",
+      "label": "t:sections.rich-text.settings.content_alignment.label"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "default": true,
+      "label": "t:sections.rich-text.settings.full_width.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 52
     }
   ],
   "blocks": [
@@ -85,8 +152,7 @@
         {
           "id": "word_text",
           "type": "text",
-          "label": "Word",
-          "default": "Hello"
+          "label": "Word"
         }
       ]
     }

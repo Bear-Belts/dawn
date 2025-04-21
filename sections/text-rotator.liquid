@@ -1,0 +1,102 @@
+<div class="text-rotator">
+  <div class="rotator-words" data-words="{{ section.blocks | map: 'settings.word_text' | json }}">
+    <span class="rotator-word rotator-prev"></span>
+    <span class="rotator-word rotator-current"></span>
+    <span class="rotator-word rotator-next"></span>
+  </div>
+  <div class="rotator-static-text">{{ section.settings.text }}</div>
+</div>
+
+<style>
+  .text-rotator {
+    display: flex;
+    align-items: center;
+  }
+  .rotator-words {
+    position: relative;
+    width: 5ch;
+    height: 1.2em;
+    overflow: hidden;
+    margin-right: 0.5em;
+  }
+  .rotator-word {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: right;
+    transition: opacity 0.5s;
+  }
+  .rotator-prev {
+    top: -1.2em;
+    opacity: 0.3;
+  }
+  .rotator-current {
+    top: 0;
+    opacity: 1;
+    font-weight: bold;
+  }
+  .rotator-next {
+    top: 1.2em;
+    opacity: 0.3;
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var container = document.querySelector('.rotator-words');
+    if (!container) return;
+    var words = JSON.parse(container.getAttribute('data-words'));
+    var prevEl = container.querySelector('.rotator-prev');
+    var currEl = container.querySelector('.rotator-current');
+    var nextEl = container.querySelector('.rotator-next');
+    var index = 0;
+
+    function update() {
+      var len = words.length;
+      prevEl.textContent = words[(index - 1 + len) % len];
+      currEl.textContent = words[index];
+      nextEl.textContent = words[(index + 1) % len];
+    }
+
+    update();
+    setInterval(function () {
+      index = (index + 1) % words.length;
+      update();
+    }, 3000);
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Text Rotator",
+  "settings": [
+    {
+      "id": "text",
+      "type": "text",
+      "label": "Static text",
+      "default": "Your text here"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "word",
+      "name": "Word",
+      "settings": [
+        {
+          "id": "word_text",
+          "type": "text",
+          "label": "Word",
+          "default": "Hello"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 10,
+  "presets": [
+    {
+      "name": "Text Rotator",
+      "category": "Text"
+    }
+  ]
+}
+{% endschema %}

@@ -9,6 +9,54 @@
  */
 {
   "sections": {
+    "image_banner_jRkaLW": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_6RKdhY": {
+          "type": "heading",
+          "settings": {
+            "heading": "No Buckles Needed! Comfort in Every Buckle-Free Stretch Belt",
+            "heading_size": "h1"
+          }
+        },
+        "text_78FtjP": {
+          "type": "text",
+          "settings": {
+            "text": "Experience the ultimate comfort with our buckle-free belts.",
+            "text_style": "body"
+          }
+        },
+        "buttons_rADiKy": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop All Belts",
+            "button_link_1": "shopify://collections/belts",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_6RKdhY",
+        "text_78FtjP",
+        "buttons_rADiKy"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Buckle-Free_Belt_-_Tan_-_Side_-_Wide_2_Large_0e3a7e0a-600f-4aae-bf73-d2cc1f6219fc.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "small",
+        "image_behavior": "ambient",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "left",
+        "show_text_box": false,
+        "color_scheme": "scheme-2",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
     "7a0dd13d-bfac-477f-83cd-da2f692f1ba5": {
       "type": "image-banner",
       "blocks": {
@@ -43,17 +91,18 @@
         "template--16730207584501__7a0dd13d-bfac-477f-83cd-da2f692f1ba5-text-1",
         "template--16730207584501__7a0dd13d-bfac-477f-83cd-da2f692f1ba5-buttons-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Buckle-FreeBeltBearBeltsxDandy-Side-CloseLarge.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
-        "desktop_content_position": "bottom-left",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-4",
         "image_behavior": "fixed",
-        "mobile_content_alignment": "center",
+        "desktop_content_position": "bottom-left",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-4",
         "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
         "show_text_below": true
       }
     },
@@ -97,13 +146,13 @@
         "image": "shopify://shop_images/Buckle-Free_Belt_-_Grey_-_Front_-_Wide_Large_a0d68558-55ad-4102-8d06-bfec9da0d9a1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
-        "desktop_content_position": "top-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-2",
         "image_behavior": "ambient",
-        "mobile_content_alignment": "center",
+        "desktop_content_position": "top-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-2",
         "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
         "show_text_below": true
       }
     },
@@ -165,6 +214,34 @@
         "padding_bottom": 52
       }
     },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "belts",
+        "products_to_show": 8,
+        "title": "Discover Our Bestsellers",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 3,
+        "enable_desktop_slider": true,
+        "full_width": true,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -206,11 +283,11 @@
         "heading_size": "h1",
         "image_width": "third",
         "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "",
-        "button_link": "",
         "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
@@ -256,13 +333,13 @@
         "image": "shopify://shop_images/IMG_0342.heic",
         "image_overlay_opacity": 0,
         "image_height": "large",
-        "desktop_content_position": "bottom-right",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-2",
         "image_behavior": "ambient",
-        "mobile_content_alignment": "center",
+        "desktop_content_position": "bottom-right",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-2",
         "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
         "show_text_below": true
       }
     },
@@ -328,11 +405,11 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
         "columns_desktop": 2,
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "",
-        "button_link": "",
         "color_scheme": "scheme-2",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
@@ -376,34 +453,6 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Belt collections",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "belts",
-        "products_to_show": 8,
-        "columns_desktop": 3,
-        "full_width": true,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "scheme-1",
-        "image_ratio": "portrait",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 28,
-        "padding_bottom": 36
       }
     },
     "165013541345f17318": {
@@ -508,13 +557,13 @@
       "settings": {
         "image_overlay_opacity": 0,
         "image_height": "medium",
-        "desktop_content_position": "bottom-left",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "scheme-1",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "desktop_content_position": "bottom-left",
+        "desktop_content_alignment": "left",
+        "show_text_box": false,
+        "color_scheme": "scheme-1",
         "stack_images_on_mobile": true,
+        "mobile_content_alignment": "left",
         "show_text_below": false
       }
     },
@@ -555,13 +604,13 @@
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "overlap",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
-        "content_layout": "overlap",
+        "mobile_content_alignment": "center",
         "section_color_scheme": "",
         "color_scheme": "scheme-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -677,11 +726,11 @@
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "shopify://blogs/news",
         "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "",
-        "button_link": "shopify://blogs/news",
         "color_scheme": "",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
@@ -793,15 +842,16 @@
     }
   },
   "order": [
+    "image_banner_jRkaLW",
     "7a0dd13d-bfac-477f-83cd-da2f692f1ba5",
     "image_banner_iE39MX",
     "72852d88-42d9-4038-b898-aa671f891831",
+    "featured_collection",
     "multicolumn",
     "image_banner",
     "rich_text",
     "1652120374894c02b4",
     "rich_text_zFtWpN",
-    "featured_collection",
     "165013541345f17318",
     "166325020295edf243",
     "16521208037f36a38d",

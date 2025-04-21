@@ -2,25 +2,48 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "170839763328fca986": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_Rt8cUB": {
+          "type": "shopify:\/\/apps\/forms\/blocks\/inline\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "",
+            "text_color": "#202020",
+            "button_background_color": "#202020",
+            "button_label_color": "#FFFFFF",
+            "links_color": "#1878B9",
+            "errors_color": "#E02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 0,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_Rt8cUB"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
         "footer-0": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
-          }
-        },
-        "footer-1": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Info",
+            "heading": "Quick links and info",
             "menu": "footer"
           }
         },
         "footer-2": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "heading": "Our mission",
             "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
@@ -29,18 +52,19 @@
       },
       "block_order": [
         "footer-0",
-        "footer-1",
         "footer-2"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
-        "newsletter_enable": true,
+        "color_scheme": "background-1",
+        "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,
         "payment_enable": true,
-        "show_policy": false,
+        "brands_enable": true,
+        "show_policy": true,
         "margin_top": 48,
         "padding_top": 36,
         "padding_bottom": 36
@@ -48,6 +72,7 @@
     }
   },
   "order": [
+    "170839763328fca986",
     "footer"
   ]
 }

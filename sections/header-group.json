@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -8,26 +17,70 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
-            "text_alignment": "center",
-            "color_scheme": "scheme-1",
+            "text": "Buy 2 Get 1 Free",
+            "link": ""
+          }
+        },
+        "f0d6282c-ed32-4bea-8b6c-84041f9bd325": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "Christmas last shipping dates",
+            "link": "shopify://pages/christmas-last-posting-dates"
+          }
+        },
+        "634fcfd9-2fa1-412f-9c9a-0540c79e6359": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "Royal Mail's international export services continue to be severely disrupted following a cyber incident.",
+            "link": ""
+          }
+        },
+        "announcement_tpJAUD": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "Vote for us",
+            "link": "https://bearworldmag.com/awards/vote"
+          }
+        },
+        "announcement_J68DCK": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "Orders placed during 27 December - 4 January will be dispatched on 6 January",
             "link": ""
           }
         }
       },
       "block_order": [
-        "announcement-bar-0"
-      ]
+        "announcement-bar-0",
+        "f0d6282c-ed32-4bea-8b6c-84041f9bd325",
+        "634fcfd9-2fa1-412f-9c9a-0540c79e6359",
+        "announcement_tpJAUD",
+        "announcement_J68DCK"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
     },
     "header": {
       "type": "header",
       "settings": {
-        "color_scheme": "scheme-1",
         "logo_position": "middle-left",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
+        "color_scheme": "background-1",
+        "menu_color_scheme": "",
         "enable_country_selector": true,
         "enable_language_selector": true,
         "mobile_logo_position": "center",

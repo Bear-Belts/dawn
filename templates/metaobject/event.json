@@ -1,0 +1,73 @@
+{
+  "sections": {
+    "fadb304d-7c24-4b93-b43a-3377f1569df3": {
+      "type": "image-banner",
+      "settings": {
+        "image": "{{ metaobject.image.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "top-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "d69e7a61-1eb7-42ca-a835-23604009408e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16785803641077__d69e7a61-1eb7-42ca-a835-23604009408e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.name.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "template--16785803641077__d69e7a61-1eb7-42ca-a835-23604009408e-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobject.address | metafield_tag }}"
+          }
+        },
+        "0af30fa2-23d3-46fa-b8cf-2f7b6ef6a8fc": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobject.dates_text | metafield_tag }}"
+          }
+        },
+        "template--16785803641077__d69e7a61-1eb7-42ca-a835-23604009408e-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Event",
+            "button_link": "{{ metaobject.link.value }}",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16785803641077__d69e7a61-1eb7-42ca-a835-23604009408e-heading-1",
+        "template--16785803641077__d69e7a61-1eb7-42ca-a835-23604009408e-text-1",
+        "0af30fa2-23d3-46fa-b8cf-2f7b6ef6a8fc",
+        "template--16785803641077__d69e7a61-1eb7-42ca-a835-23604009408e-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "fadb304d-7c24-4b93-b43a-3377f1569df3",
+    "d69e7a61-1eb7-42ca-a835-23604009408e"
+  ]
+}

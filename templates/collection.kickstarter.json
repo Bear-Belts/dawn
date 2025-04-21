@@ -1,0 +1,274 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": true,
+        "color_scheme": "background-1"
+      }
+    },
+    "525decad-a52f-41ab-97e5-20aaee25901c": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "{{ collection.metafields.kickstarter.video.value }}",
+        "video_url": "",
+        "cover_image": "{{ collection.image }}",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "3e48b113-f373-45c7-a2e7-dcfd162d431c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16800405160181__3e48b113-f373-45c7-a2e7-dcfd162d431c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ collection.title }} by Bear Belts:",
+            "heading_size": "h1"
+          }
+        },
+        "41eca16c-f52e-43f3-9954-4f0153574130": {
+          "type": "heading",
+          "settings": {
+            "heading": "Effortless Style, Endless Comfort",
+            "heading_size": "h1"
+          }
+        },
+        "template--16800405160181__3e48b113-f373-45c7-a2e7-dcfd162d431c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Experience Comfort and Versatility in Fashion<\/p>"
+          }
+        },
+        "b74a6b42-c798-4e3a-85c1-39fbc6d50724": {
+          "type": "button",
+          "settings": {
+            "button_label": "Back this project",
+            "button_link": "{{ collection.metafields.kickstarter.project.value }}",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16800405160181__3e48b113-f373-45c7-a2e7-dcfd162d431c-heading-1",
+        "41eca16c-f52e-43f3-9954-4f0153574130",
+        "template--16800405160181__3e48b113-f373-45c7-a2e7-dcfd162d431c-text-1",
+        "b74a6b42-c798-4e3a-85c1-39fbc6d50724"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "a4ae54ab-a43b-47fe-a99b-c12464b4f651": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16800405160181__a4ae54ab-a43b-47fe-a99b-c12464b4f651-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Rewards are guaranteed, and we regularly update backers.",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16800405160181__a4ae54ab-a43b-47fe-a99b-c12464b4f651-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "You’re only charged if the project meets its funding goal by the campaign deadline.",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16800405160181__a4ae54ab-a43b-47fe-a99b-c12464b4f651-column-1",
+        "template--16800405160181__a4ae54ab-a43b-47fe-a99b-c12464b4f651-column-3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "2377825f-200f-401f-a523-0a2242ef71b8": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16800405160181__2377825f-200f-401f-a523-0a2242ef71b8-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "{{ collection.metafields.kickstarter.story | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "template--16800405160181__2377825f-200f-401f-a523-0a2242ef71b8-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "cdb8412f-52cd-45c7-aea3-730e90145d27": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16800405160181__cdb8412f-52cd-45c7-aea3-730e90145d27-column-1": {
+          "type": "column",
+          "repeater": "{{ collection.metafields.kickstarter.goals.value }}",
+          "settings": {
+            "title": "{{ block.repeater.amount | metafield_tag }}",
+            "text": "<p><strong>{{ block.repeater.title.value }}<\/strong>:<\/p><p>{{ block.repeater.description.value }}<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16800405160181__cdb8412f-52cd-45c7-aea3-730e90145d27-column-1"
+      ],
+      "settings": {
+        "title": "Our Fundraising Goals",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "4d9d6173-cedf-4fa8-803b-f6f03c43318a": {
+      "type": "rich-text",
+      "blocks": {
+        "bdcb96e1-f5c3-4f5b-868b-fbbdde19e331": {
+          "type": "heading",
+          "settings": {
+            "heading": "Environmental commitments",
+            "heading_size": "h1"
+          }
+        },
+        "template--16800405160181__4d9d6173-cedf-4fa8-803b-f6f03c43318a-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "{{ collection.metafields.kickstarter.environment | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "bdcb96e1-f5c3-4f5b-868b-fbbdde19e331",
+        "template--16800405160181__4d9d6173-cedf-4fa8-803b-f6f03c43318a-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1652214013fef53a2c": {
+      "type": "newsletter",
+      "blocks": {
+        "16522140131f01ddee-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Notify Me On Launch",
+            "heading_size": "h1"
+          }
+        },
+        "16522140131f01ddee-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>We'll email you when our project launches so you can be one or the first backers.<\/p>"
+          }
+        },
+        "16522140131f01ddee-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "16522140131f01ddee-0",
+        "16522140131f01ddee-1",
+        "16522140131f01ddee-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 2,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "525decad-a52f-41ab-97e5-20aaee25901c",
+    "3e48b113-f373-45c7-a2e7-dcfd162d431c",
+    "a4ae54ab-a43b-47fe-a99b-c12464b4f651",
+    "2377825f-200f-401f-a523-0a2242ef71b8",
+    "cdb8412f-52cd-45c7-aea3-730e90145d27",
+    "4d9d6173-cedf-4fa8-803b-f6f03c43318a",
+    "1652214013fef53a2c",
+    "product-grid"
+  ]
+}

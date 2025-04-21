@@ -1,0 +1,148 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": true,
+        "color_scheme": "background-1"
+      }
+    },
+    "292cba63-3003-4709-ae80-668329aebcac": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16800405160181__292cba63-3003-4709-ae80-668329aebcac-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Coming Soon",
+            "heading_size": "h1"
+          }
+        },
+        "template--16800405160181__292cba63-3003-4709-ae80-668329aebcac-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Upcoming Project",
+            "text_style": "caption-with-letter-spacing"
+          }
+        }
+      },
+      "block_order": [
+        "template--16800405160181__292cba63-3003-4709-ae80-668329aebcac-heading-1",
+        "template--16800405160181__292cba63-3003-4709-ae80-668329aebcac-text-1"
+      ],
+      "settings": {
+        "image": "{{ collection.image }}",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "top-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-2",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
+    },
+    "3e48b113-f373-45c7-a2e7-dcfd162d431c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16800405160181__3e48b113-f373-45c7-a2e7-dcfd162d431c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ collection.title }} by Bear Belts:",
+            "heading_size": "h1"
+          }
+        },
+        "41eca16c-f52e-43f3-9954-4f0153574130": {
+          "type": "heading",
+          "settings": {
+            "heading": "Effortless Style, Endless Comfort",
+            "heading_size": "h1"
+          }
+        },
+        "template--16800405160181__3e48b113-f373-45c7-a2e7-dcfd162d431c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Experience Comfort and Versatility in Fashion<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16800405160181__3e48b113-f373-45c7-a2e7-dcfd162d431c-heading-1",
+        "41eca16c-f52e-43f3-9954-4f0153574130",
+        "template--16800405160181__3e48b113-f373-45c7-a2e7-dcfd162d431c-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1652214013fef53a2c": {
+      "type": "newsletter",
+      "blocks": {
+        "16522140131f01ddee-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Notify Me On Launch",
+            "heading_size": "h1"
+          }
+        },
+        "16522140131f01ddee-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>We'll email you when our project launches so you can be one or the first backers.<\/p>"
+          }
+        },
+        "16522140131f01ddee-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "16522140131f01ddee-0",
+        "16522140131f01ddee-1",
+        "16522140131f01ddee-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 2,
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "292cba63-3003-4709-ae80-668329aebcac",
+    "3e48b113-f373-45c7-a2e7-dcfd162d431c",
+    "1652214013fef53a2c",
+    "product-grid"
+  ]
+}

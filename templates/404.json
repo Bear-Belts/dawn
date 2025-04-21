@@ -1,10 +1,92 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
-      "type": "main-404"
+      "type": "main-404",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "rich_text_Yx8caB": {
+      "type": "rich-text",
+      "blocks": {
+        "caption_BhF3NJ": {
+          "type": "caption",
+          "settings": {
+            "caption": "404",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "heading_UVnTGL": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ooops, this page has gone off the beaten path!",
+            "heading_size": "h1"
+          }
+        },
+        "text_kqmGER": {
+          "type": "text",
+          "settings": {
+            "text": "<p>🐻 It looks like the page you’re looking for is out of reach,<br/>but don’t worry — just like our belts, we’ve got your back! 🐻</p>"
+          }
+        },
+        "caption_YJiCEB": {
+          "type": "caption",
+          "settings": {
+            "caption": "Here's how to get back on track:",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "button_Ezm679": {
+          "type": "button",
+          "settings": {
+            "button_label": "Return to the Home Page",
+            "button_link": "/",
+            "button_style_secondary": false,
+            "button_label_2": "Browse our Belts Collection",
+            "button_link_2": "shopify://collections/belts",
+            "button_style_secondary_2": false
+          }
+        },
+        "caption_8Haw68": {
+          "type": "caption",
+          "settings": {
+            "caption": "In the meantime, here's a bear-approved top: always keep your belt game strong!",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "caption_BhF3NJ",
+        "heading_UVnTGL",
+        "text_kqmGER",
+        "caption_YJiCEB",
+        "button_Ezm679",
+        "caption_8Haw68"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_Yx8caB"
   ]
 }

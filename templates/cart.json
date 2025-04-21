@@ -75,7 +75,7 @@
       ],
       "settings": {
         "product": "keychain",
-        "color_scheme": "background-1",
+        "color_scheme": "scheme-1",
         "secondary_background": false,
         "media_size": "medium",
         "constrain_to_viewport": true,
@@ -105,7 +105,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "right",
-        "color_scheme": "accent-2",
+        "color_scheme": "scheme-5",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -166,7 +166,7 @@
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "background-1",
+        "color_scheme": "scheme-1",
         "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": false,

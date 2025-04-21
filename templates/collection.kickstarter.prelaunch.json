@@ -6,7 +6,7 @@
       "settings": {
         "show_collection_description": false,
         "show_collection_image": true,
-        "color_scheme": "background-1"
+        "color_scheme": "scheme-1"
       }
     },
     "292cba63-3003-4709-ae80-668329aebcac": {
@@ -38,7 +38,7 @@
         "desktop_content_position": "top-left",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "accent-2",
+        "color_scheme": "scheme-5",
         "image_behavior": "ambient",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
@@ -77,7 +77,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "scheme-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -111,7 +111,7 @@
         "16522140131f01ddee-2"
       ],
       "settings": {
-        "color_scheme": "accent-2",
+        "color_scheme": "scheme-5",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52

@@ -50,7 +50,7 @@
         "desktop_content_position": "bottom-left",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "accent-1",
+        "color_scheme": "scheme-4",
         "image_behavior": "fixed",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
@@ -100,7 +100,7 @@
         "desktop_content_position": "top-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "background-2",
+        "color_scheme": "scheme-2",
         "image_behavior": "ambient",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
@@ -159,7 +159,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-2",
+        "color_scheme": "scheme-2",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -211,7 +211,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "background-2",
+        "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 36,
@@ -259,7 +259,7 @@
         "desktop_content_position": "bottom-right",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "background-2",
+        "color_scheme": "scheme-2",
         "image_behavior": "ambient",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
@@ -290,7 +290,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "scheme-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 20
@@ -333,7 +333,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "background-2",
+        "color_scheme": "scheme-2",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 36,
@@ -372,7 +372,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-2",
+        "color_scheme": "scheme-2",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -393,7 +393,7 @@
         "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": true,
-        "color_scheme": "background-1",
+        "color_scheme": "scheme-1",
         "image_ratio": "portrait",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -477,7 +477,7 @@
       "disabled": true,
       "settings": {
         "product": "pride-flag-buckle-free-belt",
-        "color_scheme": "background-1",
+        "color_scheme": "scheme-1",
         "secondary_background": false,
         "media_size": "medium",
         "constrain_to_viewport": true,
@@ -511,7 +511,7 @@
         "desktop_content_position": "bottom-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
-        "color_scheme": "background-1",
+        "color_scheme": "scheme-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "stack_images_on_mobile": true,
@@ -559,7 +559,7 @@
         "desktop_content_alignment": "center",
         "content_layout": "overlap",
         "section_color_scheme": "",
-        "color_scheme": "background-2",
+        "color_scheme": "scheme-2",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 36,
@@ -602,7 +602,7 @@
         "desktop_layout": "left",
         "mobile_layout": "collage",
         "card_styles": "product-card-wrapper",
-        "color_scheme": "background-1",
+        "color_scheme": "scheme-1",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -617,7 +617,7 @@
         "cover_image": "shopify://shop_images/frame-000149.jpg",
         "description": "Bear Belts Shoot 2022",
         "full_width": false,
-        "color_scheme": "background-2",
+        "color_scheme": "scheme-2",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -711,7 +711,7 @@
       "disabled": true,
       "settings": {
         "custom_liquid": "<!-- TrustBox script -->\n<script type=\"text/javascript\" src=\"//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js\" async></script>\n<!-- End TrustBox script -->\n\n<!-- TrustBox widget - Micro Review Count -->\n<div class=\"trustpilot-widget page-width\" data-locale=\"en-GB\" data-template-id=\"5419b6a8b0d04a076446a9ad\" data-businessunit-id=\"6329fe6768d3a80233f42c1b\" data-style-height=\"24px\" data-style-width=\"100%\" data-theme=\"light\" data-min-review-count=\"50\" data-without-reviews-preferred-string-id=\"1\" data-style-alignment=\"center\">\n  <a href=\"https://uk.trustpilot.com/review/bearbelts.store\" target=\"_blank\" rel=\"noopener\">Trustpilot</a>\n</div>\n<!-- End TrustBox widget -->",
-        "color_scheme": "background-1",
+        "color_scheme": "scheme-1",
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -743,7 +743,7 @@
         "165217688366cfcb54-2"
       ],
       "settings": {
-        "color_scheme": "background-2",
+        "color_scheme": "scheme-2",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -785,7 +785,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-2",
+        "color_scheme": "scheme-2",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52

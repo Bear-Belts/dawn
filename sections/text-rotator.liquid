@@ -19,7 +19,7 @@
   <div class="text-rotator content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} text-rotator--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
     <div class="text-rotator__wrapper text-rotator__wrapper--{{ section.settings.desktop_content_position }}{% if section.settings.full_width %} page-width{% endif %}">
       <h2 class="rich-text__heading rte inline-richtext{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-        <div class="rotator-words" data-words="{{ section.blocks | map: "settings" | map: "word_text" | json }}">
+        <div class="rotator-words" data-words="{{ section.blocks | map: 'settings.word_text' | json }}">
           <span class="rotator-word rotator-prev"></span>
           <span class="rotator-word rotator-current"></span>
           <span class="rotator-word rotator-next"></span>

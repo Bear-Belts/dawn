@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -45,7 +54,7 @@
         "template--16800405160181__3e48b113-f373-45c7-a2e7-dcfd162d431c-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Experience Comfort and Versatility in Fashion<\/p>"
+            "text": "<p>Experience Comfort and Versatility in Fashion</p>"
           }
         },
         "b74a6b42-c798-4e3a-85c1-39fbc6d50724": {
@@ -106,11 +115,11 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
         "columns_desktop": 2,
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "",
-        "button_link": "",
         "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -148,7 +157,7 @@
           "repeater": "{{ collection.metafields.kickstarter.goals.value }}",
           "settings": {
             "title": "{{ block.repeater.amount | metafield_tag }}",
-            "text": "<p><strong>{{ block.repeater.title.value }}<\/strong>:<\/p><p>{{ block.repeater.description.value }}<\/p>",
+            "text": "<p><strong>{{ block.repeater.title.value }}</strong>:</p><p>{{ block.repeater.description.value }}</p>",
             "link_label": "",
             "link": ""
           }
@@ -162,11 +171,11 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
         "columns_desktop": 2,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
         "color_scheme": "scheme-1",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
@@ -217,13 +226,12 @@
         "16522140131f01ddee-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>We'll email you when our project launches so you can be one or the first backers.<\/p>"
+            "text": "<p>We'll email you when our project launches so you can be one or the first backers.</p>"
           }
         },
         "16522140131f01ddee-2": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -244,17 +252,16 @@
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 2,
+        "columns_mobile": "2",
         "color_scheme": "",
         "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": true,
-        "enable_quick_add": false,
         "enable_filtering": true,
         "filter_type": "horizontal",
         "enable_sorting": true,
-        "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 36
       }

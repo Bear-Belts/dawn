@@ -1,9 +1,17 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
       "settings": {
-        "show_page_title": true,
         "padding_top": 28,
         "padding_bottom": 28
       }
@@ -16,7 +24,7 @@
           "settings": {
             "heading": "So how does it work?",
             "icon": "none",
-            "row_content": "<p>This elasticated, stretchy belt is buckle-free which means no annoying, bulky buckle digging into your stomach. Simply loop through the first belt loop on either side, and you're ready to go.<\/p>",
+            "row_content": "<p>This elasticated, stretchy belt is buckle-free which means no annoying, bulky buckle digging into your stomach. Simply loop through the first belt loop on either side, and you're ready to go.</p>",
             "page": ""
           }
         },
@@ -25,7 +33,7 @@
           "settings": {
             "heading": "When will my order be processed?",
             "icon": "none",
-            "row_content": "<p>We process orders between Monday and Friday. Orders will be processed within 1 business day from the order date. Products will be shipped the day or two after processing. Please allow extra time for your order to be processed during the holidays and sale seasons. Please note that we don't ship on weekends.<\/p>",
+            "row_content": "<p>We process orders between Monday and Friday. Orders will be processed within 1 business day from the order date. Products will be shipped the day or two after processing. Please allow extra time for your order to be processed during the holidays and sale seasons. Please note that we don't ship on weekends.</p>",
             "page": ""
           }
         },
@@ -34,7 +42,7 @@
           "settings": {
             "heading": "How long will it take to receive my order?",
             "icon": "none",
-            "row_content": "<p>Shipping times vary depending on location.<\/p>",
+            "row_content": "<p>Shipping times vary depending on location.</p>",
             "page": ""
           }
         },
@@ -43,7 +51,7 @@
           "settings": {
             "heading": "What methods of payment are accepted, is it secure?",
             "icon": "none",
-            "row_content": "<p>All payments and information are secure. We accept American Express, Discover, Mastercard, Visa, and more.<\/p>",
+            "row_content": "<p>All payments and information are secure. We accept American Express, Discover, Mastercard, Visa, and more.</p>",
             "page": ""
           }
         }
@@ -60,8 +68,8 @@
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
-        "color_scheme": "scheme-1",
         "container_color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
@@ -78,7 +86,7 @@
             "title": "",
             "text": "",
             "link_label": "Privacy Policy",
-            "link": "shopify:\/\/policies\/privacy-policy"
+            "link": "shopify://policies/privacy-policy"
           }
         },
         "1652214551ed752b2f-1": {
@@ -87,7 +95,7 @@
             "title": "",
             "text": "",
             "link_label": "Refund Policy",
-            "link": "shopify:\/\/policies\/refund-policy"
+            "link": "shopify://policies/refund-policy"
           }
         },
         "1652214551ed752b2f-2": {
@@ -96,7 +104,7 @@
             "title": "",
             "text": "",
             "link_label": "Terms of Service",
-            "link": "shopify:\/\/policies\/terms-of-service"
+            "link": "shopify://policies/terms-of-service"
           }
         }
       },
@@ -110,11 +118,11 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "",
-        "button_link": "",
         "color_scheme": "scheme-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -135,13 +143,12 @@
         "1652214158fed68844-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
           }
         },
         "1652214158fed68844-2": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [

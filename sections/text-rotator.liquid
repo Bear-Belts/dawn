@@ -1,7 +1,5 @@
 {{ 'section-text-rotator.css' | asset_url | stylesheet_tag }}
 
-<script src="{{ 'text-rotator.js' | asset_url }}" defer="defer"></script>
-
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -24,15 +22,15 @@
           <span class="rotator-word rotator-prev"></span>
           <span class="rotator-word rotator-current"></span>
           <span class="rotator-word rotator-next"></span>
+          <script type="application/json">
+            {{ section.blocks | map: 'settings' | map: 'word_text' | json }}
+          </script>
         </div>
         <div class="rotator-static-text">{{ section.settings.text }}</div>
       </h2>
     </div>
   </div>
 </div>
-<script id="rotator-words-data-{{ section.id }}" type="application/json">
-  {{ section.blocks | map: 'settings' | map: 'word_text' | json }}
-</script>
 
 {% schema %}
 {

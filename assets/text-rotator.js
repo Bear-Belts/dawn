@@ -2,10 +2,10 @@ document.addEventListener('DOMContentLoaded', function () {
   var container = document.querySelector('.rotator-words');
   if (!container) return;
   console.log('text-rotator: container element:', container);
-  // retrieve JSON from the following <script type="application/json"> tag
-  var scriptEl = container.nextElementSibling;
-  if (!scriptEl || scriptEl.tagName.toLowerCase() !== 'script' || scriptEl.type !== 'application/json') {
-    console.error('text-rotator: JSON script tag not found for words data');
+  // retrieve JSON from the <script type="application/json"> inside this container
+  var scriptEl = container.querySelector('script[type="application/json"]');
+  if (!scriptEl) {
+    console.error('text-rotator: JSON script block not found inside container');
     return;
   }
   var rawJson = scriptEl.textContent.trim();

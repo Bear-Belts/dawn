@@ -5,7 +5,13 @@
       var items = animated.querySelectorAll('.text-slider-item');
       if (items.length < 2) return;
       var current = 0;
-
+      // Set container width to width of the widest item
+      var maxWidth = 0;
+      items.forEach(function (item) {
+        var w = item.getBoundingClientRect().width;
+        if (w > maxWidth) maxWidth = w;
+      });
+      animated.style.width = maxWidth + 'px';
       function updateClasses() {
         var prev2 = (current - 2 + items.length) % items.length;
         var prev = (current - 1 + items.length) % items.length;

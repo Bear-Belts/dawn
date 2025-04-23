@@ -13,7 +13,7 @@
         var next2 = (current + 2) % items.length;
 
         items.forEach(function (item, i) {
-          item.classList.remove('prev2','prev','active','next','next2');
+          item.classList.remove('prev2', 'prev', 'active', 'next', 'next2');
           if (i === current) {
             item.classList.add('active');
           } else if (i === prev) {

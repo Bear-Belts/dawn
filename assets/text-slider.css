@@ -35,9 +35,9 @@
 }
 .text-slider-item.prev2 {
   transform: translateY(-200%);
-  opacity: 0.3;
+  opacity: 0;
 }
 .text-slider-item.next2 {
   transform: translateY(200%);
-  opacity: 0.3;
+  opacity: 0;
 }

@@ -1,6 +1,6 @@
 (function () {
   document.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('.text-slider__section').forEach(function (section) {
+    document.querySelectorAll('.text-slider__wrapper').forEach(function (section) {
       var animated = section.querySelector('.text-slider__animated');
       var items = animated.querySelectorAll('.text-slider__item');
       if (items.length < 2) return;

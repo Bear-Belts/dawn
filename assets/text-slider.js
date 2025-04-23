@@ -1,8 +1,8 @@
 (function () {
   document.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('.text-slider-section').forEach(function (section) {
-      var animated = section.querySelector('.text-slider-animated');
-      var items = animated.querySelectorAll('.text-slider-item');
+    document.querySelectorAll('.text-slider__section').forEach(function (section) {
+      var animated = section.querySelector('.text-slider__animated');
+      var items = animated.querySelectorAll('.text-slider__item');
       if (items.length < 2) return;
       var current = 0;
       // Set container width to width of the widest item

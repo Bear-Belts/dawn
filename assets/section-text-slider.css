@@ -38,6 +38,11 @@
   margin-bottom: 0;
 }
 
+.text-slider__title {
+  display: flex;
+  align-items: center;
+}
+
 .text-slider__static {
   margin-right: 0.5rem;
   font-weight: bold;

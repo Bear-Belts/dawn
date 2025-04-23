@@ -269,9 +269,14 @@
         "word_kFRqNH",
         "word_zTezKB"
       ],
-      "disabled": true,
       "settings": {
-        "text": "Keeper-Uppers Unlike Any Others"
+        "text": "Keeper-Uppers Unlike Any Others",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "multicolumn": {

@@ -1,0 +1,43 @@
+<!-- Text Slider Section -->
+<link rel="stylesheet" href="{{ 'text-slider.css' | asset_url }}">
+
+<div class="text-slider-section">
+  <span class="text-slider-static">{{ section.settings.static_text }}</span>
+  <div class="text-slider-animated">
+    {% for block in section.blocks %}
+      <span class="text-slider-item{% if forloop.first %} active{% endif %}">{{ block.settings.word }}</span>
+    {% endfor %}
+  </div>
+</div>
+
+<script src="{{ 'text-slider.js' | asset_url }}"></script>
+
+{% schema %}
+{
+  "name": "Text Slider",
+  "settings": [
+    {
+      "type": "text",
+      "id": "static_text",
+      "label": "Static text",
+      "default": "We are"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "word",
+      "name": "Animated word",
+      "settings": [
+        {
+          "type": "text",
+          "id": "word",
+          "label": "Word",
+          "default": "Creative"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 10,
+  "presets": [{ "name": "Text Slider", "category": "Text" }]
+}
+{% endschema %}

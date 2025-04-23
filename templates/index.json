@@ -242,6 +242,37 @@
         "padding_bottom": 36
       }
     },
+    "text_slider_ej34An": {
+      "type": "text-slider",
+      "blocks": {
+        "word_44m9JH": {
+          "type": "word",
+          "settings": {
+            "word": "Creative"
+          }
+        },
+        "word_QUCFhY": {
+          "type": "word",
+          "settings": {
+            "word": "Creative"
+          }
+        },
+        "word_K3QAdw": {
+          "type": "word",
+          "settings": {
+            "word": "Creative"
+          }
+        }
+      },
+      "block_order": [
+        "word_44m9JH",
+        "word_QUCFhY",
+        "word_K3QAdw"
+      ],
+      "settings": {
+        "static_text": "We are"
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -847,6 +878,7 @@
     "image_banner_iE39MX",
     "72852d88-42d9-4038-b898-aa671f891831",
     "featured_collection",
+    "text_slider_ej34An",
     "multicolumn",
     "image_banner",
     "rich_text",

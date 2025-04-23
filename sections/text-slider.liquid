@@ -21,7 +21,6 @@
       <div class="text-slider__blocks {{ section.settings.content_alignment }}">
         <h2
           class="text_slider__title {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-          {{ block.shopify_attributes }}
           {% if settings.animations_reveal_on_scroll %}
             data-cascade
             style="--animation-order: {{ forloop.index }};"
@@ -30,7 +29,9 @@
           <span class="text-slider__static">{{ section.settings.static_text }}</span>
           <div class="text-slider__animated">
             {% for block in section.blocks %}
-              <span class="text-slider__item{% if forloop.first %} active{% endif %}">{{ block.settings.word }}</span>
+              <span class="text-slider__item{% if forloop.first %} active{% endif %}" {{ block.shopify_attributes }}>
+                {{- block.settings.word -}}
+              </span>
             {% endfor %}
           </div>
         </h2>

@@ -33,3 +33,11 @@
   transform: translateY(100%);
   opacity: 0.5;
 }
+.text-slider-item.prev2 {
+  transform: translateY(-200%);
+  opacity: 0.3;
+}
+.text-slider-item.next2 {
+  transform: translateY(200%);
+  opacity: 0.3;
+}

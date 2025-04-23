@@ -242,43 +242,6 @@
         "padding_bottom": 36
       }
     },
-    "text_rotator_ziX7eM": {
-      "type": "text-rotator",
-      "blocks": {
-        "word_jd9Xz4": {
-          "type": "word",
-          "settings": {
-            "word_text": "Pant"
-          }
-        },
-        "word_kFRqNH": {
-          "type": "word",
-          "settings": {
-            "word_text": "Hello"
-          }
-        },
-        "word_zTezKB": {
-          "type": "word",
-          "settings": {
-            "word_text": "Hello"
-          }
-        }
-      },
-      "block_order": [
-        "word_jd9Xz4",
-        "word_kFRqNH",
-        "word_zTezKB"
-      ],
-      "settings": {
-        "text": "Keeper-Uppers Unlike Any Others",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -884,7 +847,6 @@
     "image_banner_iE39MX",
     "72852d88-42d9-4038-b898-aa671f891831",
     "featured_collection",
-    "text_rotator_ziX7eM",
     "multicolumn",
     "image_banner",
     "rich_text",

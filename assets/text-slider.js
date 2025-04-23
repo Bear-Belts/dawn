@@ -8,8 +8,17 @@
       // Set container width to width of the widest item
       var maxWidth = 0;
       items.forEach(function (item) {
-        var w = item.getBoundingClientRect().width;
+        var clone = item.cloneNode(true);
+        clone.style.position = 'absolute';
+        clone.style.visibility = 'hidden';
+        clone.style.whiteSpace = 'nowrap';
+        clone.style.width = 'auto';
+        clone.style.left = '-9999px';
+        clone.style.top = '-9999px';
+        document.body.appendChild(clone);
+        var w = clone.getBoundingClientRect().width;
         if (w > maxWidth) maxWidth = w;
+        document.body.removeChild(clone);
       });
       animated.style.width = maxWidth + 'px';
       function updateClasses() {

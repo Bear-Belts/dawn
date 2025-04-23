@@ -248,26 +248,40 @@
         "word_44m9JH": {
           "type": "word",
           "settings": {
-            "word": "Creative"
+            "word": "Trouser"
           }
         },
         "word_QUCFhY": {
           "type": "word",
           "settings": {
-            "word": "Creative"
+            "word": "Chino"
           }
         },
         "word_K3QAdw": {
           "type": "word",
           "settings": {
-            "word": "Creative"
+            "word": "Jean"
+          }
+        },
+        "word_wcYRwm": {
+          "type": "word",
+          "settings": {
+            "word": "Cargo"
+          }
+        },
+        "word_BaptEA": {
+          "type": "word",
+          "settings": {
+            "word": "Short"
           }
         }
       },
       "block_order": [
         "word_44m9JH",
         "word_QUCFhY",
-        "word_K3QAdw"
+        "word_K3QAdw",
+        "word_wcYRwm",
+        "word_BaptEA"
       ],
       "settings": {
         "static_text": "Keeper-Uppers Unlike Any Others"

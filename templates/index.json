@@ -284,7 +284,13 @@
         "word_BaptEA"
       ],
       "settings": {
-        "static_text": "Keeper-Uppers Unlike Any Others"
+        "static_text": "Keeper-Uppers Unlike Any Others",
+        "static_position": "end",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "multicolumn": {

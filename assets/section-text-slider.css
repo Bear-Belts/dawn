@@ -31,10 +31,6 @@
   .text-slider__wrapper--right {
     justify-content: flex-end;
   }
-
-  .text-slider__blocks {
-    max-width: 50rem;
-  }
 }
 
 .text-slider__blocks > * {

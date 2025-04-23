@@ -2,9 +2,15 @@ document.addEventListener('DOMContentLoaded', function () {
   var container = document.querySelector('.rotator-words');
   if (!container) return;
   console.log('text-rotator: container element:', container);
-  var dataWords = container.getAttribute('data-words');
-  console.log('text-rotator: data-words attribute:', dataWords);
-  var words = JSON.parse(dataWords);
+  // retrieve JSON from the following <script type="application/json"> tag
+  var scriptEl = container.nextElementSibling;
+  if (!scriptEl || scriptEl.tagName.toLowerCase() !== 'script' || scriptEl.type !== 'application/json') {
+    console.error('text-rotator: JSON script tag not found for words data');
+    return;
+  }
+  var rawJson = scriptEl.textContent.trim();
+  console.log('text-rotator: raw JSON from script tag:', rawJson);
+  var words = JSON.parse(rawJson);
   console.log('text-rotator: parsed words array:', words);
   var prevEl = container.querySelector('.rotator-prev');
   var currEl = container.querySelector('.rotator-current');

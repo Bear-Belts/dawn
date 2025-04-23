@@ -58,6 +58,7 @@
   transform: translateY(100%);
   opacity: 0.5;
   transition: transform 0.5s ease, opacity 0.5s ease;
+  white-space: nowrap;
 }
 
 .text-slider__item.active {

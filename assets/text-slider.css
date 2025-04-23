@@ -8,6 +8,7 @@
   font-weight: bold;
 }
 .text-slider-animated {
+  display: inline-block;
   position: relative;
   height: 1em;
   overflow: hidden;

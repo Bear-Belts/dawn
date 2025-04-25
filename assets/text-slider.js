@@ -1,5 +1,6 @@
 (function () {
-  document.addEventListener('DOMContentLoaded', function () {
+  // Initialize slider on load, and recalc dimensions after fonts ready and on resize
+  function initSliders() {
     document.querySelectorAll('.text-slider__wrapper').forEach(function (section) {
       var animated = section.querySelector('.text-slider__animated');
       var items = animated.querySelectorAll('.text-slider__item');
@@ -40,12 +41,19 @@
         });
         animated.style.height = maxHeight + 'px';
       }
+      // Helper to run measurement twice to capture final metrics
+      function measure() {
+        applyDimensions();
+        setTimeout(applyDimensions, 0);
+      }
       // Defer measurement until fonts are loaded for correct sizing
       if (document.fonts && document.fonts.ready) {
-        document.fonts.ready.then(applyDimensions);
+        document.fonts.ready.then(measure);
       } else {
-        applyDimensions();
+        measure();
       }
+      // Recalculate on window resize
+      window.addEventListener('resize', measure);
 
       function updateClasses() {
         var prev2 = (current - 2 + items.length) % items.length;
@@ -75,5 +83,11 @@
         updateClasses();
       }, section.dataset.interval || 3000);
     });
-  });
+  }
+  // Run init on window load
+  if (document.readyState === 'complete') {
+    initSliders();
+  } else {
+    window.addEventListener('load', initSliders);
+  }
 })();

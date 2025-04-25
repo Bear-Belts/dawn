@@ -5,38 +5,47 @@
       var items = animated.querySelectorAll('.text-slider__item');
       if (items.length < 2) return;
       var current = 0;
-      // Set container width to width of the widest item
-      var maxWidth = 0;
-      items.forEach(function (item) {
-        var clone = item.cloneNode(true);
-        clone.style.position = 'absolute';
-        clone.style.visibility = 'hidden';
-        clone.style.whiteSpace = 'nowrap';
-        clone.style.width = 'auto';
-        clone.style.left = '-9999px';
-        clone.style.top = '-9999px';
-        document.body.appendChild(clone);
-        var w = clone.getBoundingClientRect().width;
-        if (w > maxWidth) maxWidth = w;
-        document.body.removeChild(clone);
-      });
-      animated.style.width = maxWidth + 'px';
-      // Set container height to height of the tallest item
-      var maxHeight = 0;
-      items.forEach(function (item) {
-        var cloneH = item.cloneNode(true);
-        cloneH.style.position = 'absolute';
-        cloneH.style.visibility = 'hidden';
-        cloneH.style.whiteSpace = 'nowrap';
-        cloneH.style.width = maxWidth + 'px';
-        cloneH.style.left = '-9999px';
-        cloneH.style.top = '-9999px';
-        document.body.appendChild(cloneH);
-        var h = cloneH.getBoundingClientRect().height;
-        if (h > maxHeight) maxHeight = h;
-        document.body.removeChild(cloneH);
-      });
-      animated.style.height = maxHeight + 'px';
+      // Measure and apply container dimensions after fonts load for accurate sizing
+      function applyDimensions() {
+        // width
+        var maxWidth = 0;
+        items.forEach(function (item) {
+          var clone = item.cloneNode(true);
+          clone.style.position = 'absolute';
+          clone.style.visibility = 'hidden';
+          clone.style.whiteSpace = 'nowrap';
+          clone.style.width = 'auto';
+          clone.style.left = '-9999px';
+          clone.style.top = '-9999px';
+          document.body.appendChild(clone);
+          var w = clone.getBoundingClientRect().width;
+          if (w > maxWidth) maxWidth = w;
+          document.body.removeChild(clone);
+        });
+        animated.style.width = maxWidth + 'px';
+        // height
+        var maxHeight = 0;
+        items.forEach(function (item) {
+          var cloneH = item.cloneNode(true);
+          cloneH.style.position = 'absolute';
+          cloneH.style.visibility = 'hidden';
+          cloneH.style.whiteSpace = 'nowrap';
+          cloneH.style.width = maxWidth + 'px';
+          cloneH.style.left = '-9999px';
+          cloneH.style.top = '-9999px';
+          document.body.appendChild(cloneH);
+          var h = cloneH.getBoundingClientRect().height;
+          if (h > maxHeight) maxHeight = h;
+          document.body.removeChild(cloneH);
+        });
+        animated.style.height = maxHeight + 'px';
+      }
+      // Defer measurement until fonts are loaded for correct sizing
+      if (document.fonts && document.fonts.ready) {
+        document.fonts.ready.then(applyDimensions);
+      } else {
+        applyDimensions();
+      }
 
       function updateClasses() {
         var prev2 = (current - 2 + items.length) % items.length;

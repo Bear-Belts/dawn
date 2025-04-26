@@ -41,11 +41,11 @@
 .text-slider__title {
   display: flex;
   align-items: center;
+  font-weight: bold;
 }
 
 .text-slider__static {
   margin-right: 0.5rem;
-  font-weight: bold;
 }
 
 .text-slider__static_start .text-slider__item {

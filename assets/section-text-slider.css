@@ -17,6 +17,7 @@
 
 .text-slider__blocks {
   width: 100%;
+  justify-content: center;
 }
 
 @media screen and (min-width: 750px) {

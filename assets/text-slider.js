@@ -8,22 +8,27 @@
       var current = 0;
       // Measure and apply container dimensions after fonts load for accurate sizing
       function applyDimensions() {
-        // width
+        // width via Canvas to get exact text width
+        var canvas = document.createElement('canvas');
+        var context = canvas.getContext('2d');
         var maxWidth = 0;
         items.forEach(function (item) {
-          var clone = item.cloneNode(true);
-          clone.style.position = 'absolute';
-          clone.style.visibility = 'hidden';
-          clone.style.whiteSpace = 'nowrap';
-          clone.style.width = 'auto';
-          clone.style.left = '-9999px';
-          clone.style.top = '-9999px';
-          document.body.appendChild(clone);
-          var w = clone.getBoundingClientRect().width;
+          var style = window.getComputedStyle(item);
+          context.font =
+            style.fontStyle +
+            ' ' +
+            style.fontVariant +
+            ' ' +
+            style.fontWeight +
+            ' ' +
+            style.fontSize +
+            ' ' +
+            style.fontFamily;
+          var text = item.textContent.trim();
+          var w = context.measureText(text).width;
           if (w > maxWidth) maxWidth = w;
-          document.body.removeChild(clone);
         });
-        animated.style.width = maxWidth + 'px';
+        animated.style.width = Math.ceil(maxWidth) + 'px';
         // height
         var maxHeight = 0;
         items.forEach(function (item) {

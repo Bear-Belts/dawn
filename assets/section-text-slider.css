@@ -17,6 +17,7 @@
 
 .text-slider__blocks {
   width: 100%;
+  display: flex;
   justify-content: center;
 }
 

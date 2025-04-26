@@ -27,7 +27,7 @@
           {% endif %}
         >
           {% if section.settings.static_position == 'start' %}
-            <span class="text-slider__static">{{ section.settings.static_text }}</span>&nbsp;
+            <span class="text-slider__static">{{ section.settings.static_text }}</span>
             <div class="text-slider__animated">
               {% for block in section.blocks %}
                 <span class="text-slider__item{% if forloop.first %} active{% endif %}" {{ block.shopify_attributes }}>
@@ -43,7 +43,6 @@
                 </span>
               {% endfor %}
             </div>
-            &nbsp;
             <span class="text-slider__static">{{ section.settings.static_text }}</span>
           {% endif %}
         </h2>

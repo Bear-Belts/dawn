@@ -42,8 +42,9 @@
 
 .text-slider__title {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   font-weight: bold;
+  gap: 0.5rem;
 }
 
 .text-slider__static {

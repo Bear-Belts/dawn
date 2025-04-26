@@ -20,7 +20,7 @@
     <div class="text-slider__wrapper text-slider__wrapper--{{ section.settings.desktop_content_position }}{% if section.settings.full_width %} page-width{% endif %}">
       <div class="text-slider__blocks {{ section.settings.content_alignment }}">
         <h2
-          class="text_slider__title text_slider__static_{{ section.settings.static_text }} {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+          class="text_slider__title text_slider__static_{{ section.settings.static_position }} {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
           {% if settings.animations_reveal_on_scroll %}
             data-cascade
             style="--animation-order: {{ forloop.index }};"

@@ -49,11 +49,11 @@
 }
 
 .text_slider__static_start .text-slider__item {
-  text-align: right;
+  text-align: left;
 }
 
 .text-slider__static_end .text-slider__item {
-  text-align: left;
+  text-align: right;
 }
 
 .text-slider__animated {

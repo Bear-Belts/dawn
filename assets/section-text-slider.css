@@ -64,6 +64,7 @@
   position: relative;
   height: 1em;
   overflow: x-hidden;
+  font-size: larger;
 }
 
 .text-slider__item {

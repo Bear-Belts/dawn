@@ -48,6 +48,14 @@
   font-weight: bold;
 }
 
+.text_slider__static_start {
+  text-align: right;
+}
+
+.text-slider__static_end {
+  text-align: left;
+}
+
 .text-slider__animated {
   display: inline-block;
   position: relative;

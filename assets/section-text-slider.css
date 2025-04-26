@@ -48,11 +48,11 @@
   font-weight: bold;
 }
 
-.text_slider__static_start .text-slider__item {
+.text-slider__static_start .text-slider__item {
   text-align: left;
 }
 
-.text-slider__static_end .text-slider__item {
+.text_slider__static_end .text-slider__item {
   text-align: right;
 }
 

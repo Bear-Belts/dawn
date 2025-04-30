@@ -193,7 +193,7 @@
         "template--16730207584501__72852d88-42d9-4038-b898-aa671f891831-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>While we're on leave,<br/>orders placed during <strong>27 December - 4 January</strong> will be dispatched on <strong>6 January</strong>.</p>"
+            "text": "<p>While we're on leave,<br/>orders placed during <strong>8 May - 26 May</strong> will be dispatched on <strong>27 May</strong>.</p>"
           }
         }
       },
@@ -204,7 +204,6 @@
         "text_XgqkHT",
         "template--16730207584501__72852d88-42d9-4038-b898-aa671f891831-text-1"
       ],
-      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",

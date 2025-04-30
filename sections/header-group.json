@@ -47,9 +47,8 @@
         },
         "announcement_J68DCK": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "Orders placed during 27 December - 4 January will be dispatched on 6 January",
+            "text": "Orders placed during 8 May - 26 May will be dispatched on 27 May",
             "link": ""
           }
         }

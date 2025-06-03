@@ -33,7 +33,7 @@
           "settings": {
             "heading": "When will my order be processed?",
             "icon": "none",
-            "row_content": "<p>We process orders between Monday and Friday. Orders will be processed within 1 business day from the order date. Products will be shipped a day or two after processing. Please allow extra time for your order to be processed during the holidays and sale seasons. Please note that we don't ship on weekends.</p>",
+            "row_content": "<p>We process orders on Mondays, Thursdays, and Fridays. Orders will be processed within 1 business day from the order date. Products will be shipped a day or two after processing. Please allow extra time for your order to be processed during the holidays and sale seasons. Please note that we don't ship on weekends.</p>",
             "page": ""
           }
         },

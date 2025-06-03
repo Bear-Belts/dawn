@@ -34,6 +34,7 @@
       "block_order": [
         "166385866842538b59-0"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -96,7 +97,6 @@
         "dc4a38d7-1f26-41a5-970b-d2518186bf29",
         "0b686fa4-2e54-4057-81c1-f7abd77b7ae2"
       ],
-      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",

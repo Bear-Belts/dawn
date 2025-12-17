@@ -26,7 +26,7 @@
           "disabled": true,
           "settings": {
             "text": "Christmas last shipping dates",
-            "link": "shopify://pages/christmas-last-posting-dates"
+            "link": "shopify://pages/christmas-last-order-dates"
           }
         },
         "634fcfd9-2fa1-412f-9c9a-0540c79e6359": {
